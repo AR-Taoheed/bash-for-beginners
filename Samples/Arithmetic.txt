@@ -1,0 +1,11 @@
+#!/bin/bash
+
+# Write an arithemetic that add, subtract, multiply and divide 2 numbers
+
+read x
+read y
+
+echo $(($x+$y))
+echo $(($x-$y))
+echo $(($x*$y))
+echo $(($x/$y))

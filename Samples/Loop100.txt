@@ -1,0 +1,10 @@
+#!/bin/bash
+
+#Write a script that output odd natural numbers from 1-99
+
+for i in {1..99..2}
+	do
+		echo $i
+done
+
+#The [D[D[D[D [DThe for loop starts at 1 with an increment of 2 until 99
